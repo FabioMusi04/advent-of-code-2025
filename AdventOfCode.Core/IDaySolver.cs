@@ -1,7 +1,6 @@
 ﻿namespace AdventOfCode.Core;
-
 public interface IDaySolver
 {
-    string SolvePart1();
-    string SolvePart2();
+    string SolvePart1(params object[] args);
+    string SolvePart2(params object[] args);
 }

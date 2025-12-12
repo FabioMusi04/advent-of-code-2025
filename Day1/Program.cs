@@ -2,11 +2,11 @@
 
 namespace Day1;
 
-public class Day01Solver : IDaySolver
+public class DaySolver : IDaySolver
 {
     private readonly List<string> _input;
 
-    public Day01Solver()
+    public DaySolver()
     {
         _input = FileReader.ReadLines(1);
     }
@@ -56,7 +56,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        var solver = new Day01Solver();
+        var solver = new DaySolver();
 
         Console.WriteLine("Day 1");
         Console.WriteLine("Part 1: " + solver.SolvePart1());
