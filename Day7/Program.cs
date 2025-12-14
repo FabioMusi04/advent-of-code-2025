@@ -170,7 +170,7 @@ class Program
     {
         var solver = new DaySolver();
 
-        Console.WriteLine("Day 6");
+        Console.WriteLine("Day 7");
         Console.WriteLine("Part 1: " + solver.SolvePart1());
         Console.WriteLine("Part 2: " + solver.SolvePart2());
     }
